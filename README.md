@@ -2,7 +2,7 @@
 
 This repository contains files, code and data from my Master's degree thesis work. The thesis paper will be included upon completion.
 
-Each folder contains a README file describing its content.
+### Folders content
 
 The _Initial analysis_ folder contains a short presentation and summary of the gathered data and a subfolder containing all the projects analyzed for this initial step.
 
