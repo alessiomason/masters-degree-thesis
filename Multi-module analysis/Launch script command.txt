@@ -1,0 +1,1 @@
+script.sh parentArtifactId squ_f1d5d38924de35addbe8105bf7e7ddb4d513dbfe
