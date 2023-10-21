@@ -1,0 +1,39 @@
+stages:
+  - test
+  - codequality
+
+variables:
+  MAVEN_OPTS: >-
+    -Dhttps.protocols=TLSv1.2
+    -Dorg.slf4j.simpleLogger.showDateTime=true
+    -Djava.awt.headless=true
+
+  MAVEN_CLI_OPTS: >-
+    --batch-mode
+    --fail-at-end
+    --show-version
+
+image: maven:3.9.0-amazoncorretto-17
+
+verify:
+  stage: test
+  tags:
+    - oop
+  script:
+    - 'mvn $MAVEN_CLI_OPTS test'
+  artifacts:
+    when: always
+    reports:
+      junit:
+        - target/surefire-reports/TEST-*.xml
+
+sonarqube:
+  stage: codequality
+  tags:
+    - oop
+  variables:
+    SONAR_HOST_URL: "http://172.17.0.2:9000"
+    SONAR_TOKEN: "85df9fae1b73e56abee20330db2528e5cd9a6e9a"
+    SONAR_USER_HOME: "${CI_PROJECT_DIR}/.sonar"  # Defines the location of the analysis task cache
+  script:
+    - mvn clean install sonar:sonar
