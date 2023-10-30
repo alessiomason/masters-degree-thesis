@@ -12,3 +12,19 @@ The _Multi-module analysis_ folder contains again a test folder, with all subfol
 
 The _Exam 2023-06-27 analysis_ folder contains a presentation of the major bugs and code smells found in the analysis, the SQL scripts employed to retrieve the data from the database SonarQube uses and two Excel files summarizing all gathered data, which were used to perform the statistical analysis - one file containing all the analysed students and the other only the ones who actually received an evaluation for the exam.  
 The actual folder containing all analysed projects is not included due to privacy concerns for the students (in the Excel files the students numbers are anonymized).
+
+### Title and abstract
+
+_"Programming assignments evaluation using technical debt"_
+
+In recent years, the idea of technical debt is gaining adoption to describe the problem introduced - more or less consciously - by imperfections in code in an attempt to reduce time and costs of software development.
+
+The goal of this thesis is to investigate whether technical debt, a concept usually applied to large industrial software, can be applied to the software developed by students in their programming assignments.
+
+The idea could be useful both for students and for teachers.  
+Students could find the aid of an automated analysis of their programs helpful to understand which topics they still have not understood completely and what mistakes or oversights they incurred during their preparation.  
+For teachers, on the other hand, analysing the code produced by students might be useful at two different times: throughout the course, to understand whether some topics are still a bit obscure to a number of students and might require a revision. Then, following the final evaluation, technical debt analysis may be useful to understand the overall comprehension of the most difficult concepts or even to award the students who wrote not only working but also clean and maintainable code, which is a skill that is not usually considered in early-on courses but that most definitely has to be picked up before entering the labour market.
+
+Specifically, this paper examines a known context, the "Object-oriented programming" course for the Computer Engineering Bachelor's degree of Politecnico di Torino: real past projects have been analysed verifying which problems arise as the commonest amongst the students, whether they make sense in the context of students' initial approaches to programming and their possible correlation with the final evaluation received.
+
+This study did prove useful to understand the repeating issues amongst the students and to work out a way to automate said analysis, so that, in the future, it could be carried out even during the course to better comprehend the students' preparation.

@@ -1,9 +1,9 @@
--- seleziona tutte le matricole (che hanno almeno un issue), poi left join per appendere numero di problemi dello studente (se presente)
+-- select all students numbers (having at least one issue), then left join to append number of issues of the student (if present)
 SELECT DISTINCT SUBSTRING(kee, 31, 7) AS student, issues_per_student.count
 FROM components
 LEFT JOIN (
-    -- seleziona matricola e numero di problemi di qualità per ogni studente relativo ad una specifica regola
-    -- la tabella dei componenti contiene il nome della cartella (il componente, nella colonna kee), cioè la matricola dello studente
+    -- select student number and number of issues for every student for a specific rule
+    -- the components table contains the name of the folder (the component, in the column kee): that is, the student number
     SELECT SUBSTRING(C.kee, 31, 7) AS student, COUNT(*) AS count
     FROM issues I, components C
     WHERE I.component_uuid = C.uuid AND C.kee LIKE 'it.polito.oop:Exam_2023-06-27:s%'
