@@ -2,17 +2,6 @@
 
 This repository contains files, code and data from my Master's degree thesis work. The thesis paper will be included upon completion.
 
-### Folders content
-
-The _Initial analysis_ folder contains a short presentation and summary of the gathered data and a subfolder containing all the projects analyzed for this initial phase.
-
-The _Multi-project analysis_ folder contains the commands to create the Docker container hosting SonarQube and to run the analysis, in addition to a folder used for testing the hierarchy and placement of folders and files needed for this solution.
-
-The _Multi-module analysis_ folder contains again a test folder, with all subfolders and files placed correctly to verify the viability of this solution, the templates for the parent and child POM, the script to automate the analysis and the command to launch it.
-
-The _Exam 2023-06-27 analysis_ folder contains a presentation of the major bugs and code smells found in the analysis, the SQL scripts employed to retrieve the data from the database SonarQube uses and two Excel files summarizing all gathered data, which were used to perform the statistical analysis - one file containing all the analysed students and the other only the ones who actually received an evaluation for the exam.  
-The actual folder containing all analysed projects is not included due to privacy concerns for the students (in the Excel files the students numbers are anonymized).
-
 ### Title and abstract
 
 _"Programming assignments evaluation using technical debt"_
@@ -28,3 +17,14 @@ For teachers, on the other hand, analysing the code produced by students might b
 Specifically, this paper examines a known context, the "Object-oriented programming" course for the Computer Engineering Bachelor's degree of Politecnico di Torino: real past projects have been analysed verifying which problems arise as the commonest amongst the students, whether they make sense in the context of students' initial approaches to programming and their possible correlation with the final evaluation received.
 
 This study did prove useful to understand the repeating issues amongst the students and to work out a way to automate said analysis, so that, in the future, it could be carried out even during the course to better comprehend the students' preparation.
+
+### Folders content
+
+The _Initial analysis_ folder contains a short presentation and summary of the gathered data and a subfolder containing all the projects analyzed for this initial phase.
+
+The _Multi-project analysis_ folder contains the commands to create the Docker container hosting SonarQube and to run the analysis, in addition to a folder used for testing the hierarchy and placement of folders and files needed for this solution.
+
+The _Multi-module analysis_ folder contains again a test folder, with all subfolders and files placed correctly to verify the viability of this solution, the templates for the parent and child POM, the script to automate the analysis and the command to launch it.
+
+The _Exam 2023-06-27 analysis_ folder contains a presentation of the major bugs and code smells found in the analysis, the SQL scripts employed to retrieve the data from the database SonarQube uses and two Excel files summarizing all gathered data, which were used to perform the statistical analysis - one file containing all the analysed students and the other only the ones who actually received an evaluation for the exam.  
+The actual folder containing all analysed projects is not included due to privacy concerns for the students (in the Excel files the students numbers are anonymized).
