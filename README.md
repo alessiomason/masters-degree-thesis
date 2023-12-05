@@ -2,9 +2,11 @@
 
 This repository contains files, code and data from my Master's degree thesis work. The thesis paper will be included upon completion.
 
+[🌐 Qui in italiano](README_it.md)
+
 ### Title and abstract
 
-_"Programming assignments evaluation using technical debt"_
+**"Programming assignments evaluation using technical debt"**
 
 In recent years, the idea of technical debt is gaining adoption to describe the problem introduced - more or less consciously - by imperfections in code in an attempt to reduce time and costs of software development.
 
