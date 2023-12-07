@@ -1,6 +1,6 @@
 # Tesi di Laurea Magistrale
 
-Questo repository contiene file, codice e dati tratti dal mio lavoro di tesi magistrale. La tesi in sé verrà inclusa una volta completata.
+Questo repository contiene file, codice e dati tratti dal mio lavoro di tesi magistrale. La tesi in sé è contenuta nella cartella "Thesis".
 
 [🌐 Here in English](README.md)
 
@@ -29,4 +29,6 @@ La cartella "Multi-project analysis" contiene i comandi per creare il container 
 La cartella "Multi-module analysis" contiene nuovamente una cartella di test, con tutte le sottocartelle e i file collocati correttamente per verificare la viabilità di questa soluzione, i template per i POM padre e figlio, lo script per automatizzare l'analisi e il comando per lanciarlo.
 
 La cartella "Exam 2023-06-27 analysis" contiene una presentazione dei principali bug e code smell rilevati nell'analisi, gli script SQL impiegati per recuperare i dati dal database che SonarQube utilizza e i due file Excel riassuntivi di tutti i dati raccolti, che sono stati utilizzati per eseguire l'analisi statistica - un file contenente tutti gli studenti analizzati e l'altro solo quelli che hanno effettivamente ricevuto una valutazione per l'esame: questo secondo file (_Exam 2023-06-27 only marks_) è quello utilizzato per tutte le varie analisi statistiche.  
-L'effettiva cartella contenente tutti i progetti analizzati non è inclusa per ragioni di privacy degli studenti (nei file Excel le marticole degli studenti sono anonimizzate).
+L'effettiva cartella contenente tutti i progetti analizzati non è inclusa per ragioni di privacy degli studenti (nei file Excel le matricole degli studenti sono anonimizzate).
+
+La cartella "Thesis" contiene la tesi in sé, il riassunto e la presentazione usata per l'esame finale.
