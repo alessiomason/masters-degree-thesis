@@ -1,6 +1,6 @@
 # Master's degree thesis
 
-This repository contains files, code and data from my Master's degree thesis work. The thesis paper itself is contained in the "Thesis" folder.
+This repository contains files, code and data from my Master's degree thesis work. The thesis paper itself is contained in the "Thesis" folder, or is accessible from the [Politecnico di Torino's Webthesis portal](https://webthesis.biblio.polito.it/29379/).
 
 [🌐 Qui in italiano](README_it.md)
 

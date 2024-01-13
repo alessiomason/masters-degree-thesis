@@ -1,6 +1,6 @@
 # Tesi di Laurea Magistrale
 
-Questo repository contiene file, codice e dati tratti dal mio lavoro di tesi magistrale. La tesi in sé è contenuta nella cartella "Thesis".
+Questo repository contiene file, codice e dati tratti dal mio lavoro di tesi magistrale. La tesi in sé è contenuta nella cartella "Thesis", o è accessibile dal [portale Webthesis del Politecnico di Torino](https://webthesis.biblio.polito.it/29379/).
 
 [🌐 Here in English](README.md)
 
